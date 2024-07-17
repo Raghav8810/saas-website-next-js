@@ -56,14 +56,14 @@ const LogoTicker = () => {
                 {images.map(({src,alt}) => (
                     <Image src={src}
                      alt={alt} 
-                     key={src} 
+                     key={alt} 
                      className='flex-none h-8 w-auto' />
                 ))}
                  {images.map(({src,alt}) => (
                     <Image
                      src={src} 
                      alt={alt} 
-                     key={src} 
+                     key={alt} 
                      className='flex-none h-8 w-auto' />
                 ))}
                 
